@@ -12,7 +12,7 @@ export default {
     required: false
   },
   created() {
-    console.log(this.$options);
+    console.log(this.$options.propsData);
   }
 };
 </script>
